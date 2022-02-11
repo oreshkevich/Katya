@@ -490,7 +490,7 @@ select:active, select:focus {
    transition: left 0.5s;
 }
  .vigorous {
-  left: -250px;
+  left: -350px;
   }
 h2 {
   text-align: center;
@@ -666,7 +666,7 @@ input[type=checkbox]:checked + label:before {
   padding: 1px;
 }
 .button-settings {
-  top: 40px;
+  top: 154px;
 }
 }
 @media (max-width: 768px) {
