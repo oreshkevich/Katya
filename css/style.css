@@ -641,7 +641,7 @@ input[type=checkbox]:checked + label:before {
   /* position: absolute */
   /* steps causes the animation to chunk into 12 equal pieces */
   animation: walk-cycle 1s steps(12) infinite;
-  background: url(http://stash.rachelnabors.com/img/codepen/tuna_sprite.png) 0 0 no-repeat; 
+  background: url('../assets/tuna.png') 0 0 no-repeat; 
   height: 200px;
   width: 400px;
   /* margin: 100px auto 0; */
