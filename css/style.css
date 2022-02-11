@@ -643,6 +643,11 @@ input[type=checkbox]:checked + label:before {
     min-height: 50px;
     margin-bottom: 10px;
 }
+.greeting-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: inherit;
+}
 .video-progress {
   width: 172;
 }
@@ -653,12 +658,16 @@ input[type=checkbox]:checked + label:before {
 
 }
 .button-todo {
-    top: 357px;
+  top: 377px;
     left: 2px;
 }
+.name {
+  font-size: 28px;
+  padding: 1px;
+}
 .button-settings {
-
   top: 40px;
+}
 }
 @media (max-width: 768px) {
   .time {
@@ -687,6 +696,9 @@ input[type=checkbox]:checked + label:before {
   top: 180px;
     left: 3px;
 }
+.name {
+  text-align: center;
+}
 }
 @media (max-width: 548px){
 input[type=text] {
@@ -696,6 +708,7 @@ input[type=text] {
 .button-settings {
   top: 154px;
 }
+
 }
 
 
@@ -714,7 +727,7 @@ input[type=text] {
 }
 
 .button-todo {
-    top: 371px;
+  top: 317px;
    
 }
 .button-settings {
