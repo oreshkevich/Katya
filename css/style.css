@@ -632,8 +632,50 @@ input[type=checkbox]:checked + label:before {
   opacity: 0;
 }
 /* todo */
+.tun {
+  position: absolute;
+  top: -148px;
+  right: 613px;
+}
+.tuna {
+  /* position: absolute */
+  /* steps causes the animation to chunk into 12 equal pieces */
+  animation: walk-cycle 1s steps(12) infinite;
+  background: url(http://stash.rachelnabors.com/img/codepen/tuna_sprite.png) 0 0 no-repeat; 
+  height: 200px;
+  width: 400px;
+  /* margin: 100px auto 0; */
+}
+
+@keyframes walk-cycle {  
+  0% {background-position: 0 0; } 
+  100% {background-position: 0 -2391px; } /* Must be full height of sprite or skipping will happen.*/
+}
+
+p {text-align: center;}
+
+@media (max-width: 1295px) {
+  .tun {
+    position: absolute;
+    top: -164px;
+    right: 376px;
+  }
+}
+@media (max-width: 997px) {
+  .tun {
+    position: absolute;
+    top: -164px;
+    right: 247px;
+  }
+}
+
 
 @media (max-width: 853px) {
+  .tun {
+    position: absolute;
+    top: 285px;
+    right: -17px;
+  }
 .header-player {
     display: flex;
     flex-direction: column;
@@ -698,6 +740,10 @@ input[type=checkbox]:checked + label:before {
 }
 .name {
   text-align: center;
+}
+.tuna {
+  height: 178px;
+  width: 396px;
 }
 }
 @media (max-width: 548px){
